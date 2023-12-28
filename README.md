@@ -1,2 +1,2 @@
 # NAMUTHON_TeamC
-나무꾼팀
+This repository is for the namuthon teamC
