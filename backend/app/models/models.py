@@ -14,6 +14,11 @@ class TrashType(str, Enum):
 class ModelRequest(BaseModel):
     image: str
 
-
 class ModelResponse(BaseModel):
     answer: TrashType
+
+class TTSRequest(BaseModel):
+    name: str
+
+class TTSResponse(BaseModel):
+    query: str
